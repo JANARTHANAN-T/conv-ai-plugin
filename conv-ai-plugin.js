@@ -1,5 +1,5 @@
 (() => {
-    const CDN_PATH_PREFIX = 'https://cdn.jsdelivr.net/gh/JANARTHANAN-T/conv-ai-plugin@0.0.1';
+    const CDN_PATH_PREFIX = 'https://cdn.jsdelivr.net/gh/JANARTHANAN-T/conv-ai-plugin@main';
 
     const defaultTheme = {
         primaryColor: '#2A59F1',
