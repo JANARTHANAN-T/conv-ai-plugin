@@ -166,7 +166,7 @@
             this.voiceAssistantButton = document.createElement('div');
             this.voiceAssistantButton.id = 'voice-assistant-button';
             this.voiceAssistantButton.className = 'conv-ai-voice-assistant-button';
-            this.voiceAssistantButton.innerHTML = `<img src="${CDN_PATH_PREFIX}/phone.png" class="conv-ai-icon" /> <span>Let's Talk</span>`;
+            this.voiceAssistantButton.innerHTML = `<img src="${CDN_PATH_PREFIX}/phone-icon.png" class="conv-ai-icon" /> <span>Let's Talk</span>`;
             this.voiceAssistantButton.addEventListener('click', () => this.handleButtonClick());
             document.body.appendChild(this.voiceAssistantButton);
 
