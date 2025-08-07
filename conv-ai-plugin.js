@@ -314,14 +314,14 @@
 
         async getLiveKitToken() {
             try {
-                const response = await fetch('http://localhost:3000/api/v1/agents/register', {
+                const response = await fetch('https://conv-ai-frontend.dev.grootan.net/api/v1/agents/register', {
                     method: 'POST',
                     headers: {
                         'accept': 'application/json',
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        agent_id: '61ed3e0e-7b15-4e28-a233-9ffc9e328eeb',
+                        agent_id: this.options.agentId,
                         ttl_days: 1
                     })
                 });
