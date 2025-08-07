@@ -314,7 +314,7 @@
 
         async getLiveKitToken() {
             try {
-                const response = await fetch('https://conv-ai-frontend.dev.grootan.net/api/v1/agents/register', {
+                const response = await fetch('https://conv-ai-backend.dev.grootan.net/api/v1/agents/register', {
                     method: 'POST',
                     headers: {
                         'accept': 'application/json',
